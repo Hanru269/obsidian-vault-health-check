@@ -4,7 +4,7 @@ from datetime import date, datetime
 
 WIKILINK = re.compile(r"(?<!!)\[\[([^\]\n]+?)\]\]")
 TASK = re.compile(r"^\s*[-*]\s+\[( |x|X)\]\s+(.*)$")
-DUE = re.compile(r"(?:📅\s*|\[due::\s*|\bdue:\s*)(\d{4}-\d{2}-\d{2})")
+DUE = re.compile(r"(?:📅\s*|\[due::\s*|\bdue:\s*)(\d{4}-\d{2}-\d{2})\]?")
 DONE = re.compile(r"✅\s*(\d{4}-\d{2}-\d{2})")
 SKIP_DIRS = {".obsidian", ".git", ".trash", "node_modules"}
 
