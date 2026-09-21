@@ -1,5 +1,8 @@
 # Obsidian vault health check (Claude Code skill + standalone script)
 
+![Real output on the included sample vault](images/004-out1.png)
+
+
 A read-only audit for an [Obsidian](https://obsidian.md) vault: **broken and ambiguous wikilinks, orphan notes, duplicate note names, missing properties, empty notes and stale notes.**
 Pure Python (standard library), tested, and it never modifies a note. Use it standalone or as a [Claude Code](https://claude.com/claude-code) skill that explains the findings and drafts fixes for you to approve.
 
